@@ -1,3 +1,5 @@
+apply from: "gradle/buildCache.gradle"
+
 include("project0")
 include("project1")
 include("project2")
