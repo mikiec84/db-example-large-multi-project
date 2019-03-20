@@ -1,6 +1,0 @@
-node('linux') {
-    checkout scm
-    withCredentials([string(credentialsId: 'remote-build-cache', variable: 'BUILD_CACHE_PASSWORD')]) {
-        sh './gradlew --continue clean assemble check'
-    }
-}
