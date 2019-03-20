@@ -3,6 +3,6 @@ plugins {
 }
 
 buildScan {
-    server = "https://e.grdev.net"
+    server = System.getenv("GE_URL")
     publishAlways()
 }
