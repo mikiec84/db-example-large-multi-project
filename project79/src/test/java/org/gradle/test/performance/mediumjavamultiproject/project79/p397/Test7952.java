@@ -17,86 +17,98 @@ public class Test7952 {
     Production7952 objectUnderTest = new Production7952();     
 
     @Test
-    public void testProperty0() {
+    public void testProperty0() throws Exception {
         Production7943 value = new Production7943();
         objectUnderTest.setProperty0(value);
+        Thread.sleep(250);
         assertEquals(value, objectUnderTest.getProperty0());
     }
 
     @Test
-    public void testProperty1() {
+    public void testProperty1() throws Exception {
         Production7947 value = new Production7947();
         objectUnderTest.setProperty1(value);
+        Thread.sleep(250);
         assertEquals(value, objectUnderTest.getProperty1());
     }
 
     @Test
-    public void testProperty2() {
+    public void testProperty2() throws Exception {
         Production7951 value = new Production7951();
         objectUnderTest.setProperty2(value);
+        Thread.sleep(250);
         assertEquals(value, objectUnderTest.getProperty2());
     }
 
     @Test
-    public void testProperty3() {
+    public void testProperty3() throws Exception {
         Production5252 value = new Production5252();
         objectUnderTest.setProperty3(value);
+        Thread.sleep(250);
         assertEquals(value, objectUnderTest.getProperty3());
     }
 
     @Test
-    public void testProperty4() {
+    public void testProperty4() throws Exception {
         Production6552 value = new Production6552();
         objectUnderTest.setProperty4(value);
+        Thread.sleep(250);
         assertEquals(value, objectUnderTest.getProperty4());
     }
 
     @Test
-    public void testProperty5() {
+    public void testProperty5() throws Exception {
         Production7852 value = new Production7852();
         objectUnderTest.setProperty5(value);
+        Thread.sleep(250);
         assertEquals(value, objectUnderTest.getProperty5());
     }
 
     @Test
-    public void testProperty6() {
+    public void testProperty6() throws Exception {
         Production4352 value = new Production4352();
         objectUnderTest.setProperty6(value);
+        Thread.sleep(250);
         assertEquals(value, objectUnderTest.getProperty6());
     }
 
     @Test
-    public void testProperty7() {
+    public void testProperty7() throws Exception {
         Production4052 value = new Production4052();
         objectUnderTest.setProperty7(value);
+        Thread.sleep(250);
         assertEquals(value, objectUnderTest.getProperty7());
     }
 
     @Test
-    public void testProperty8() {
+    public void testProperty8() throws Exception {
         Production5652 value = new Production5652();
         objectUnderTest.setProperty8(value);
+        Thread.sleep(250);
         assertEquals(value, objectUnderTest.getProperty8());
     }
 
     @Test
-    public void testProperty9() {
+    public void testProperty9() throws Exception {
         Production5352 value = new Production5352();
         objectUnderTest.setProperty9(value);
+        Thread.sleep(250);
         assertEquals(value, objectUnderTest.getProperty9());
     }
 
     @Test
-    public void testProperty10() {
+    public void testProperty10() throws Exception {
         Production6952 value = new Production6952();
         objectUnderTest.setProperty10(value);
+        Thread.sleep(250);
         assertEquals(value, objectUnderTest.getProperty10());
     }
 
     @Test
-    public void testProperty11() {
+    public void testProperty11() throws Exception {
         Production6652 value = new Production6652();
         objectUnderTest.setProperty11(value);
+        Thread.sleep(250);
         assertEquals(value, objectUnderTest.getProperty11());
     }
 
